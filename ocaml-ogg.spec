@@ -38,6 +38,9 @@ make install
 /usr/lib64/ocaml/ogg/ogg.cmi
 /usr/lib64/ocaml/ogg/ogg.cmxa
 /usr/lib64/ocaml/ogg/ogg.mli
+/usr/lib64/ocaml/ogg/ocaml-ogg.h
+/usr/lib64/ocaml/ogg/ogg_demuxer.cmi
+/usr/lib64/ocaml/ogg/ogg_demuxer.mli
 /usr/lib64/ocaml/ogg/libogg_stubs.a
 /usr/lib64/ocaml/stublibs/dllogg_stubs.so
 /usr/lib64/ocaml/stublibs/dllogg_stubs.so.owner

@@ -9,6 +9,7 @@ Source0:  https://github.com/savonet/ocaml-ogg/releases/download/0.5.0/ocaml-ogg
 
 BuildRequires: ocaml
 BuildRequires: ocaml-findlib
+BuildRequires: ocaml-bytes
 BuildRequires: libogg-devel
 Requires:      libogg
 

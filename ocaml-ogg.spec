@@ -36,15 +36,8 @@ make install
 /usr/lib64/ocaml/ogg/ogg.a
 /usr/lib64/ocaml/ogg/ogg.cma
 /usr/lib64/ocaml/ogg/ogg.cmi
-/usr/lib64/ocaml/ogg/ogg.cmx
 /usr/lib64/ocaml/ogg/ogg.cmxa
 /usr/lib64/ocaml/ogg/ogg.mli
-/usr/lib64/ocaml/ogg/ogg.cmxs
-/usr/lib64/ocaml/ogg/ogg_dynlink.mli
-/usr/lib64/ocaml/ogg/ogg_loader.cma
-/usr/lib64/ocaml/ogg/ogg_loader.cmi
-/usr/lib64/ocaml/ogg/ogg_loader.cmx
-/usr/lib64/ocaml/ogg/ogg_loader.cmxs
 /usr/lib64/ocaml/ogg/libogg_stubs.a
 /usr/lib64/ocaml/stublibs/dllogg_stubs.so
 /usr/lib64/ocaml/stublibs/dllogg_stubs.so.owner

@@ -1,11 +1,11 @@
 Name:     ocaml-ogg
 
-Version:  0.5.0
+Version:  0.5.1
 Release:  1
 Summary:  OCaml bindings for libogg
 License:  GPLv2+
 URL:      https://github.com/savonet/ocaml-ogg
-Source0:  https://github.com/savonet/ocaml-ogg/releases/download/0.5.0/ocaml-ogg-0.5.0.tar.gz
+Source0:  https://github.com/savonet/ocaml-ogg/releases/download/%{version}/ocaml-ogg-%{version}.tar.gz
 
 BuildRequires: ocaml
 BuildRequires: ocaml-findlib
@@ -36,9 +36,11 @@ make install
 /usr/lib64/ocaml/ogg/ogg.a
 /usr/lib64/ocaml/ogg/ogg.cma
 /usr/lib64/ocaml/ogg/ogg.cmi
+/usr/lib64/ocaml/ogg/ogg.cmx
 /usr/lib64/ocaml/ogg/ogg.cmxa
 /usr/lib64/ocaml/ogg/ogg.mli
 /usr/lib64/ocaml/ogg/ocaml-ogg.h
+/usr/lib64/ocaml/ogg/ogg_demuxer.cmx
 /usr/lib64/ocaml/ogg/ogg_demuxer.cmi
 /usr/lib64/ocaml/ogg/ogg_demuxer.mli
 /usr/lib64/ocaml/ogg/libogg_stubs.a
@@ -50,5 +52,8 @@ OCAML bindings for libogg
 
 
 %changelog
+* Sat Apr 15 2017 Lucas Bickel <hairmare@rabe.ch>
+- Bump version
+
 * Sun Jul  3 2016 Lucas Bickel <hairmare@rabe.ch>
 - initial version, mostly stolen from https://www.openmamba.org/showfile.html?file=/pub/openmamba/devel/specs/ocaml-ogg.spec

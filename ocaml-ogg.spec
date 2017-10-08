@@ -1,6 +1,6 @@
 Name:     ocaml-ogg
 
-Version:  0.5.1
+Version:  0.5.2
 Release:  1
 Summary:  OCaml bindings for libogg
 License:  GPLv2+
@@ -52,6 +52,9 @@ OCAML bindings for libogg
 
 
 %changelog
+* Sat Oct  8 2017 Lucas Bickel <hairmare@rabe.ch>
+- Bump version
+
 * Sat Apr 15 2017 Lucas Bickel <hairmare@rabe.ch>
 - Bump version
 
